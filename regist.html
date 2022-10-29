@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form validation in HTML & CSS | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Formulario de registro</header>
+    <form action="#">
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Usuario">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">usuario no puede estar vacio</div>
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Contraseña necesaria, Ingresar Contraseña</div>
+      </div>
+      <div class="field nombre">
+        <div class="input-area">
+          <input type="nombre" placeholder="nombre">
+          <i class="icon fas fa-file"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Es necesario su nombre</div>
+      </div>
+      <div class="field apellido">
+        <div class="input-area">
+          <input type="apellido" placeholder="apellido">
+          <i class="icon fas fa-file"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Es necesario su nombre</div>
+      </div>
+      <div class="field numero">
+        <div class="input-area">
+          <input type="text" placeholder="Numero">
+          <i class="icon fas fa-phone"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">es necesario su telefono</div>
+      </div>
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Usuario">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">usuario no puede estar vacio</div>
+      </div>
+      <div class="pass-txt"><a href="#">olvide mi contraseña</a></div>
+      <input type="submit" value="Registrar">
+    </form>
+    <div class="sign-txt">Ya eres miembro? <a href="index.html">Login</a></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
